@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - feature/valida-titulo
 
   pull_request:
     branches:
