@@ -7,10 +7,11 @@ function validarChamado(titulo: string): boolean {
         throw new Error("O título não pode ter menos que 5 caracters");
     }
 
-    if (titulo.length > 100) {
+    /* if (titulo.length > 100) {
         throw new Error("O título não pode ter mais que 100 caracters");
     }
-
+    */
+   
     return true;
 }
 
