@@ -30,6 +30,6 @@ describe('Suíte de Testes - Validador de Chamados (Service Desk)', () => {
     test('Deve lançar erro se o título tiver mais que 100 caracteres', () => {
         expect(() => {
             validarChamado("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-        }).toThrow("O título do chamado não pode ser vazio.");
+        }).toThrow("O título do chamado não ter mais que 100 caracteres.");
     });
 });
